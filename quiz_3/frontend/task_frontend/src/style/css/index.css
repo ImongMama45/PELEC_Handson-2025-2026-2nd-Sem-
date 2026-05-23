@@ -1,0 +1,32 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #F0EDE8;
+  --surface: #FAFAF8;
+  --surface-2: #F5F2ED;
+  --ink: #1A1814;
+  --ink-2: #4A4540;
+  --ink-3: #9A948C;
+  --ink-4: #C8C2BA;
+  --accent: #2D5A3D;
+  --accent-light: #4A8C5C;
+  --accent-bg: #E8F0EA;
+  --danger: #C0392B;
+  --danger-bg: #FCEAE8;
+  --border: rgba(26, 24, 20, 0.1);
+  --border-2: rgba(26, 24, 20, 0.06);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-pill: 100px;
+}
+
+html, body, #root {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--accent-bg); color: var(--accent); }
